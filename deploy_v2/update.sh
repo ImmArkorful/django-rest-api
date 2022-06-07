@@ -3,7 +3,7 @@
 set -e
 
 PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
-VIRTUALENV_BASE_PATH='/usr/local/virtualenvs'
+VIRTUALENV_BASE_PATH='/usr/local/virtualenvs/profiles_api'
 
 git pull
 $VIRTUALENV_BASE_PATH/env/bin/python manage.py migrate
